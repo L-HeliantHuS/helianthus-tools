@@ -9,9 +9,10 @@ __date__ = '2019/10/09'
  
 setup(
     name='helianthus_tools',
-    version='1.4',
+    version='1.5',
     description=(
-        'HeliantHuS-Tools ~ wow awesome!'
+        'HeliantHuS-Tools ~ wow awesome!' +
+        'Change AWD plugin BUG(input host error.)'
     ),
     long_description=open('README.txt').read(),
     author='HeliantHuS',

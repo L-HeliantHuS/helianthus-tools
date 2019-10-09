@@ -150,13 +150,14 @@ def CLI():
         choose1 = input("[Choose] >>> ")
         if choose1 in ["1", "2", "3", "4", "5"]:
             if choose1 == "1":
+                hosts = input("hosts >>> ")
                 # 单
                 if username == "" and password == "":
                     username = input("username >>> ")
                     password = input("password >>> ")
                 else:
                     print("检测到已经输入过用户名和密码了, 已帮你自动填写.")
-                    hosts = input("hosts >>> ")
+
                 shell = input("shell(默认cat /flag) >>> ")
 
                 if shell != "":
@@ -165,13 +166,14 @@ def CLI():
                     multiConnect(hosts=hosts, username=username, password=password, command="cat /flag", multi=False)
 
             elif choose1 == "2":
+                hosts = input("hosts >>> ")
                 # 多
                 if username == "" and password == "":
                     username = input("username >>> ")
                     password = input("password >>> ")
                 else:
                     print("检测到已经输入过用户名和密码了, 已帮你自动填写.")
-                    hosts = input("hosts >>> ")
+
 
                 # 循环输入要执行的命令
                 temp = 0
