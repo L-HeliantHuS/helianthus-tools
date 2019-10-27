@@ -9,7 +9,7 @@ __date__ = '2019/10/09'
  
 setup(
     name='helianthus_tools',
-    version='1.5',
+    version='1.6',
     description=(
         'HeliantHuS-Tools ~ wow awesome!' +
         'Change AWD plugin BUG(input host error.)'
