@@ -194,7 +194,7 @@ def CLI():
                 if recvNum == "":
                     multiNetCat(hosts=hosts, port=int(port), command=shell)
                 else:
-                    multiNetCat(hosts=hosts, port=int(port), command=shell, recvNum=int(recvNum))
+                    multiNetCat(hosts=hosts, port=int(port), command=shell, bytesNum=int(recvNum))
 
 
             elif choose1 == "4":

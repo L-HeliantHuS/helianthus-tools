@@ -5,11 +5,11 @@
 from setuptools import setup, find_packages
  
 __author__ = 'HeliantHuS'
-__date__ = '2019/10/09'
+__date__ = '2019/12/03'
  
 setup(
     name='helianthus_tools',
-    version='1.6',
+    version='1.7',
     description=(
         'HeliantHuS-Tools ~ wow awesome!' +
         'Change AWD plugin BUG(input host error.)'
